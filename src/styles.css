@@ -1,0 +1,23 @@
+body {
+  background-color: #a3d5d3;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.flow-table {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: white;
+  max-width: 400px;
+  margin: 0 auto;
+  --grid-gap: 5px;
+}
+
+.flow-table > div {
+  padding: 5px;
+}
+.header {
+  background-color: #50afac;
+}
