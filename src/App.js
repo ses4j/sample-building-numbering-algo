@@ -107,9 +107,9 @@ export default function App() {
   return (
     <div className="App">
       <h2>Building Numbering Algorithm</h2>
-      <div class="flow-table">
-        <div class="header">Building ID</div>
-        <div class="header">Location Code</div>
+      <div className="flow-table">
+        <div className="header">Building ID</div>
+        <div className="header">Location Code</div>
         {ret.map((r, idx) => {
           return (
             <React.Fragment>
